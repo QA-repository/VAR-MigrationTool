@@ -5,150 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b9c6376-edc9-4bab-96c2-a8aa500aedff" name="Changes" comment="url crawler update 3">
-      <change afterPath="$PROJECT_DIR$/src/test/java/src/test/tests/MigrationTestCases.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug-Report" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FieldDetails.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1698314234490.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1698314234515.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1698314250059.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1698314250082.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1698656618034.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1698656618057.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1698659656633.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1698659656654.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1699531084927.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1699531084950.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1700380483760.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1700380483782.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1700380612759.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1700380612775.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1700380765581.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1700380765599.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1700380952314.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1700380952340.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1700381042307.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1700381042324.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1700381085937.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1700381085958.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1700381606600.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1700381606618.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1700381857503.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1700381857519.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1700382041722.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1700382041739.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1700385641008.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1700385641025.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1700395381556.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1700395381587.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1700395419650.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1700395419675.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1700395455779.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1700395455818.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1700395540981.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1700395541045.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1701254508562.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1701254508598.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1701257781915.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1701257781961.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1701257839875.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1701257839919.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1701257885691.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1701257885723.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1701707317820.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1701707317848.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1701707675430.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDuplication-List1701707675455.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Uploads/TBS.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XHR Files/BasicPage.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XHR Files/para.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/automationtool-helper-ef1299b041fc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ArabicWordExtractor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CheckURLsWithVerificationCSV.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HarParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HtmlComparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HtmlContent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HtmlParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/URLCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/URLCrawler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/loading_Nodes_Time.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/src/test/tests/APICaller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/src/test/tests/APICaller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/src/test/tests/API_TestCases.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/src/test/tests/ConfigurationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/src/test/tests/ConfigurationReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/src/test/tests/GoogleSheetsHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/src/test/tests/RestAssuredListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/src/test/tests/SendMail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/src/test/tests/TestBases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/src/test/tests/TestBases.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/src/test/tests/WriteDataToExcel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/1056.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCR Project 2023-11-19 11_17_34.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCR Project 2023-11-19 11_20_38.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCR Project 2023-11-19 12_20_38.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCR Project 2023-11-19 15_02_57.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCR Project 2023-11-19 15_03_35.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCR Project 2023-11-19 15_04_12.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCR Project 2023-11-19 15_05_36.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCR Project 2023-11-22 12_43_09.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCR Project 2023-11-22 12_48_14.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCR Project 2023-11-22 12_49_08.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCR Project 2023-11-22 12_50_16.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCR Project 2023-11-22 12_51_52.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCR Project 2023-11-22 12_53_13.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCR Project 2023-11-22 12_53_51.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCR Project 2023-11-22 12_54_47.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCR Project 2023-11-22 12_56_58.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCR Project 2023-11-29 13_41_40.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCR Project 2023-11-29 14_36_16.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCR Project 2023-11-29 14_37_13.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCR Project 2023-11-29 14_38_00.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCR Project 2023-12-04 16_33_54.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCR Project 2023-12-04 16_34_19.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCR Project 2023-12-04 16_39_02.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCR Project 2023-12-04 16_42_01.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCR Project 2023-12-04 16_43_14.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCR Project 2023-12-04 16_44_09.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCR Project 2023-12-04 16_45_41.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCR Project 2023-12-04 19_01_40.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCR Project 2023-12-04 19_27_00.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCR Project 2023-12-04 19_28_34.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCR Project 2023-12-04 19_34_31.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCR Project-- Test Time @114.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCR Project-- Test completed at 1113.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCR112.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/UNHCRTest Time @113.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/extent-report1052.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/extent-report1053.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/extent-report1054.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/extent-report20231026125710.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/extent-report20231026125725.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/extent-report20231029062715.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/extent-report20231030120328.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/extent-report20231030125412.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/extent-report20231107100820.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/extent-report20231107100851.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/extent-report20231107101159.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/extent-report20231107101608.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/extent-report20231107101656.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/extent-report20231107102055.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/extent-report20231109013547.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/extent-report20231109014013.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/extent-report20231109025759.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/extent-report20231109123405.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/extent-report20231109123648.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/extent-report20231109123738.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/extent-report20231109123856.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/extent-report20231109123948.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/extent-report20231109124012.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/extent-report20231114022625.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/extent-report20231114022830.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/extent-report20231114031329.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/extent-report20231114031530.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/null1059.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/src/test/tests/MigrationTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/src/test/tests/MigrationTestCases.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +65,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "copyfrommaster",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/Vardot QA/Downloads/VAR-MigrationTool",
     "project.structure.last.edited": "Modules",
@@ -225,7 +83,7 @@
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ji">
+  <component name="RunManager" selected="TestNG.MigrationTestCases.readXMLTestCase">
     <configuration name="ApiChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pages.ApiChecker" />
       <module name="Vardot-MigrationTestTool" />
@@ -235,26 +93,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pages.ds" />
-      <module name="Vardot-MigrationTestTool" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="dww (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dww" />
-      <module name="Vardot-MigrationTestTool" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -356,22 +194,58 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="MigrationTestCases.readJsonTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Vardot-MigrationTestTool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.test.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="src.test.tests" />
+      <option name="MAIN_CLASS_NAME" value="src.test.tests.MigrationTestCases" />
+      <option name="METHOD_NAME" value="readJsonTestCase" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MigrationTestCases.readXMLTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Vardot-MigrationTestTool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.test.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="src.test.tests" />
+      <option name="MAIN_CLASS_NAME" value="src.test.tests.MigrationTestCases" />
+      <option name="METHOD_NAME" value="readXMLTestCase" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ApiChecker" />
       <item itemvalue="Application.ji" />
-      <item itemvalue="Application.ds" />
       <item itemvalue="Application.dww" />
-      <item itemvalue="Application.dww (1)" />
       <item itemvalue="Maven.Vardot [clean]" />
       <item itemvalue="Maven.Vardot [test]" />
+      <item itemvalue="TestNG.MigrationTestCases.readJsonTestCase" />
+      <item itemvalue="TestNG.MigrationTestCases.readXMLTestCase" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MigrationTestCases.readXMLTestCase" />
+        <item itemvalue="TestNG.MigrationTestCases.readJsonTestCase" />
         <item itemvalue="Application.ji" />
         <item itemvalue="Application.ApiChecker" />
         <item itemvalue="Application.dww" />
-        <item itemvalue="Application.dww (1)" />
-        <item itemvalue="Application.ds" />
       </list>
     </recent_temporary>
   </component>
@@ -483,8 +357,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/src/test/tests/MigrationTestCases.java</url>
-          <line>20</line>
-          <properties class="src.test.tests.migration_TestCases">
+          <line>21</line>
+          <properties class="src.test.tests.MigrationTestCases">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

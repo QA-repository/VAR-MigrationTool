@@ -8,11 +8,12 @@ import java.io.IOException;
 
 
 public class MigrationTestCases extends TestBases {
+    String projectPath = System.getProperty("user.dir");
 
 @Test
     public void readJsonTestCase(){
 
-    String filePath = "path/to/your/file.json";
+    String filePath = projectPath + "/Resources/JsonSample.json";
     try {
         processJsonFile(filePath);
     } catch (IOException e) {
@@ -23,8 +24,8 @@ public class MigrationTestCases extends TestBases {
 
     @Test
     public void readXMLTestCase(){
+        String filePath = projectPath + "/Resources/XMLSample.XML";
 
-        String filePath = "path/to/your/file.XML";
 
         try {
             processXmlFile(filePath);
