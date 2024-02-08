@@ -13,13 +13,19 @@ public class MigrationTestCases extends TestBases {
 @Test
     public void readJsonTestCase(){
 
-    String filePath = projectPath + "/Resources/JsonSample.json";
+    String filePath = projectPath + "/Resources/jsonformatter.json";
     try {
         processJsonFile(filePath);
     } catch (IOException e) {
         e.printStackTrace();
     }
 }
+    @Test
+    public void countEntriesJson(){
+
+        String filePath = projectPath + "/Resources/sample-2.json";
+        mapJson(filePath);
+    }
 
 
     @Test
