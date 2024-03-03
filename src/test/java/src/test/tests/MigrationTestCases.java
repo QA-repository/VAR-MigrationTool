@@ -35,14 +35,6 @@ public class MigrationTestCases extends TestBases {
 
     }
 
-    @Test
-    public void readJsonToCatchNulls(){
-
-        String filePath = projectPath + "/Resources/xmltojson.json";
-
-
-    }
-
 
     @Test
     public void readXMLTestCase(){
