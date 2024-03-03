@@ -23,8 +23,24 @@ public class MigrationTestCases extends TestBases {
     @Test
     public void countEntriesJson(){
 
-        String filePath = projectPath + "/Resources/sample-2.json";
+        String filePath = projectPath + "/Resources/jsonformatter.json";
         mapJson(filePath);
+    }
+
+    @Test
+    public void readJsonToStoreExcel(){
+
+        String filePath = projectPath + "/Resources/xmltojson.json";
+        insertJsonToExcel(filePath);
+
+    }
+
+    @Test
+    public void readJsonToCatchNulls(){
+
+        String filePath = projectPath + "/Resources/xmltojson.json";
+
+
     }
 
 
