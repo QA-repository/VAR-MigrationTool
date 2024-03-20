@@ -24,7 +24,7 @@ public class MigrationTestCases extends TestBases {
     public void readJsonTestCase(){
 
 
-    String filePath = projectPath + "/Resources/jsonformatter.json";
+    String filePath = projectPath + "/Resources/xmltojson.json";
     try {
         processJsonFile(filePath);
     } catch (IOException e) {
@@ -34,7 +34,7 @@ public class MigrationTestCases extends TestBases {
     @Test
     public void countEntriesJson(){
 
-        String filePath = projectPath + "/Resources/jsonformatter.json";
+        String filePath = projectPath + "/Resources/xmltojson.json";
         mapJson(filePath);
     }
 
@@ -44,16 +44,6 @@ public class MigrationTestCases extends TestBases {
         String filePath = projectPath + "/Resources/xmltojson.json";
         insertJsonToExcel(filePath);
 
-    }
-
-
-
-        String filePath = projectPath + "/Resources/JsonSample.json";
-         try {
-              processJsonFile(filePath);
-        } catch (IOException e) {
-             e.printStackTrace();
-        }
     }
 
     @Test
