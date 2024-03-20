@@ -22,6 +22,32 @@ public class MigrationTestCases extends TestBases {
 
 @Test
     public void readJsonTestCase(){
+
+
+    String filePath = projectPath + "/Resources/jsonformatter.json";
+    try {
+        processJsonFile(filePath);
+    } catch (IOException e) {
+        e.printStackTrace();
+    }
+}
+    @Test
+    public void countEntriesJson(){
+
+        String filePath = projectPath + "/Resources/jsonformatter.json";
+        mapJson(filePath);
+    }
+
+    @Test
+    public void readJsonToStoreExcel(){
+
+        String filePath = projectPath + "/Resources/xmltojson.json";
+        insertJsonToExcel(filePath);
+
+    }
+
+
+
         String filePath = projectPath + "/Resources/JsonSample.json";
          try {
               processJsonFile(filePath);
@@ -29,6 +55,7 @@ public class MigrationTestCases extends TestBases {
              e.printStackTrace();
         }
     }
+
     @Test
     public String readXMLTestCase(){
         String filePath = projectPath + "/Resources/countries.XML";

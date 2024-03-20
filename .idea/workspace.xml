@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b9c6376-edc9-4bab-96c2-a8aa500aedff" name="Changes" comment="url crawler update 3">
+    <list default="true" id="3b9c6376-edc9-4bab-96c2-a8aa500aedff" name="Changes" comment="Added ability to read Json, count whole entries, count all keys with its values">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/src/test/tests/MigrationTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/src/test/tests/MigrationTestCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/src/test/tests/TestBases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/src/test/tests/TestBases.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +25,26 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="support-json" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/support-json" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -34,11 +58,14 @@
     &quot;assignee&quot;: &quot;QA-repository&quot;
   }
 }</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="d2eb9247-548d-4368-a91b-d0d032a4cd4a" />
+  </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="bd7dc452-f7b1-4aa9-9eb6-5cabdc8db59b" />
-        <option name="url" value="https://github.com/QA-repository/JavaVardotXpertLink.git" />
+        <option name="accountId" value="d2eb9247-548d-4368-a91b-d0d032a4cd4a" />
+        <option name="url" value="https://github.com/QA-repository/VAR-MigrationTool.git" />
       </UrlAndAccount>
     </option>
   </component>
@@ -47,6 +74,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -60,21 +90,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Vardot QA/Downloads/VAR-MigrationTool",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.MigrationTestCases.countEntriesJson.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MigrationTestCases.getJsonData.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MigrationTestCases.readJsonTestCase.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MigrationTestCases.readJsonToStoreExcel.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MigrationTestCases.readJsonTostoreExcel.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;support-json&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hamzeh/IdeaProjects/VAR-MigrationTool/Resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Hamzeh\IdeaProjects\VAR-MigrationTool\Resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Vardot QA\Desktop\Vardot_E2E Testing Tool" />
       <recent name="C:\Users\Vardot QA\Desktop\Vardot_E2E Testing Tool\src" />
@@ -83,46 +122,7 @@
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.MigrationTestCases.readXMLTestCase">
-    <configuration name="ApiChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pages.ApiChecker" />
-      <module name="Vardot-MigrationTestTool" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="dww" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pages.dww" />
-      <module name="Vardot-MigrationTestTool" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ji" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pages.ji" />
-      <module name="Vardot-MigrationTestTool" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.MigrationTestCases.countEntriesJson">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Vardot_E2E Testing Tool" />
       <method v="2">
@@ -151,6 +151,7 @@
                 <option value="clean" />
               </list>
             </option>
+            <option name="multimoduleDir" />
             <option name="pomFileName" />
             <option name="profilesMap">
               <map />
@@ -180,6 +181,7 @@
                 <option value="test" />
               </list>
             </option>
+            <option name="multimoduleDir" />
             <option name="pomFileName" />
             <option name="profilesMap">
               <map />
@@ -193,6 +195,42 @@
         </option>
       </MavenSettings>
       <method v="2" />
+    </configuration>
+    <configuration name="MigrationTestCases.countEntriesJson" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Vardot-MigrationTestTool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.test.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="src.test.tests" />
+      <option name="MAIN_CLASS_NAME" value="src.test.tests.MigrationTestCases" />
+      <option name="METHOD_NAME" value="countEntriesJson" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MigrationTestCases.getJsonData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Vardot-MigrationTestTool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.test.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="src.test.tests" />
+      <option name="MAIN_CLASS_NAME" value="src.test.tests.MigrationTestCases" />
+      <option name="METHOD_NAME" value="getJsonData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="MigrationTestCases.readJsonTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Vardot-MigrationTestTool" />
@@ -212,7 +250,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MigrationTestCases.readXMLTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MigrationTestCases.readJsonToStoreExcel" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Vardot-MigrationTestTool" />
       <extension name="coverage">
         <pattern>
@@ -222,7 +260,25 @@
       </extension>
       <option name="PACKAGE_NAME" value="src.test.tests" />
       <option name="MAIN_CLASS_NAME" value="src.test.tests.MigrationTestCases" />
-      <option name="METHOD_NAME" value="readXMLTestCase" />
+      <option name="METHOD_NAME" value="readJsonToStoreExcel" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MigrationTestCases.readJsonTostoreExcel" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Vardot-MigrationTestTool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.test.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="src.test.tests" />
+      <option name="MAIN_CLASS_NAME" value="src.test.tests.MigrationTestCases" />
+      <option name="METHOD_NAME" value="readJsonTostoreExcel" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -231,23 +287,31 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ApiChecker" />
-      <item itemvalue="Application.ji" />
-      <item itemvalue="Application.dww" />
       <item itemvalue="Maven.Vardot [clean]" />
       <item itemvalue="Maven.Vardot [test]" />
+      <item itemvalue="TestNG.MigrationTestCases.readJsonToStoreExcel" />
+      <item itemvalue="TestNG.MigrationTestCases.readJsonTostoreExcel" />
+      <item itemvalue="TestNG.MigrationTestCases.getJsonData" />
+      <item itemvalue="TestNG.MigrationTestCases.countEntriesJson" />
       <item itemvalue="TestNG.MigrationTestCases.readJsonTestCase" />
-      <item itemvalue="TestNG.MigrationTestCases.readXMLTestCase" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.MigrationTestCases.readXMLTestCase" />
+        <item itemvalue="TestNG.MigrationTestCases.countEntriesJson" />
         <item itemvalue="TestNG.MigrationTestCases.readJsonTestCase" />
-        <item itemvalue="Application.ji" />
-        <item itemvalue="Application.ApiChecker" />
-        <item itemvalue="Application.dww" />
+        <item itemvalue="TestNG.MigrationTestCases.readJsonToStoreExcel" />
+        <item itemvalue="TestNG.MigrationTestCases.getJsonData" />
+        <item itemvalue="TestNG.MigrationTestCases.readJsonTostoreExcel" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-8336523bb0d9-657b72ed" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -322,7 +386,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703171096113</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added ability to read Json, count whole entries, count all keys with its values">
+      <option name="closed" value="true" />
+      <created>1707401385698</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1707401385698</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -345,25 +417,12 @@
     <MESSAGE value="url crawler" />
     <MESSAGE value="url crawler update 2" />
     <MESSAGE value="url crawler update 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="url crawler update 3" />
+    <MESSAGE value="Added ability to read Json, count whole entries, count all keys with its values" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added ability to read Json, count whole entries, count all keys with its values" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/src/test/tests/APICaller.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/src/test/tests/MigrationTestCases.java</url>
-          <line>21</line>
-          <properties class="src.test.tests.MigrationTestCases">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.io.IOException" package="java.io" />
           <option name="timeStamp" value="30" />
