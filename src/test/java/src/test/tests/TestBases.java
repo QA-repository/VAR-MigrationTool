@@ -129,11 +129,10 @@ public class TestBases {
 				}
 			}
 
-			// Write the workbook to a file
 			FileOutputStream out = new FileOutputStream(new File("Count_Entries.xlsx"));
 			workbook.write(out);
 			out.close();
-			workbook.close(); // Close the workbook after writing
+			workbook.close();
 
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -142,7 +141,7 @@ public class TestBases {
 
 	static void countEntries(JsonNode jsonNode, Map<String, Integer> countMap, String parentKey) {
 		if (jsonNode.isArray()) {
-			countArray(jsonNode, countMap, parentKey); // Pass parentKey to countArray
+			countArray(jsonNode, countMap, parentKey);
 		} else if (jsonNode.isObject()) {
 			Iterator<Map.Entry<String, JsonNode>> fieldsIterator = jsonNode.fields();
 			while (fieldsIterator.hasNext()) {

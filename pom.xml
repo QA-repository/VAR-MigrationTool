@@ -9,12 +9,47 @@
 
         <plugins>
             <plugin>
+                <groupId>com.alexecollins.maven.plugin</groupId>
+                <artifactId>script-maven-plugin</artifactId>
+                <version>1.0.0</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>execute</goal>
+                        </goals>
+                        <configuration>
+                            <language>groovy</language>
+                            <script>
+                                System.out.println(project.getName());
+                            </script>
+                            <!-- or..
+                            <scriptFile>script.groovy</scriptFile>
+                            -->
+                        </configuration>
+                    </execution>
+                </executions>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.codehaus.groovy</groupId>
+                        <artifactId>groovy-bsf</artifactId>
+                        <version>2.4.3</version>
+                    </dependency>
+
+                </dependencies>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.0.0</version>
+            </plugin>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
 
-                    <source>11</source>
-                    <target>11</target>
+                    <source>14</source>
+                    <target>14</target>
 
                 </configuration>
             </plugin>
@@ -63,6 +98,17 @@
           <groupId>commons-net</groupId>
           <artifactId>commons-net</artifactId>
           <version>3.8.0</version> <!-- Use the latest version -->
+      </dependency>
+      <!-- https://mvnrepository.com/artifact/org.graalvm.sdk/graal-sdk -->
+      <dependency>
+          <groupId>org.graalvm.sdk</groupId>
+          <artifactId>graal-sdk</artifactId>
+          <version>21.3.0</version> <!-- Adjust the version based on the GraalVM version you are using -->
+      </dependency>
+      <dependency>
+          <groupId>org.graalvm.js</groupId>
+          <artifactId>js</artifactId>
+          <version>21.3.0</version> <!-- Adjust the version based on the GraalVM version you are using -->
       </dependency>
       <dependency>
           <groupId>junit</groupId>

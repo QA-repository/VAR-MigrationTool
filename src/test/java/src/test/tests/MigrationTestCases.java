@@ -61,15 +61,8 @@ public class MigrationTestCases extends TestBases {
     }
     @Test
     public void countXMLdata(){
-        //String XMLdata = readXMLTestCase();
-       // TestBases.xmlCount(XMLdata);
-       // TestBases.xmlEmptyRecodes(XMLdata);
-        //TestBases.xmlDataType(XMLdata);
-        //duplication itemsz
-        // collect items pre-post execution
-        //String filePath = projectPath + "/Resources/countries.XML";
+
         String filePath = projectPath + "/Resources/externallinks.XML";
-        //TestBases.writeDataToExcel(filePath);
         try {
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = factory.newDocumentBuilder();
