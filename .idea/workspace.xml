@@ -7,15 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b9c6376-edc9-4bab-96c2-a8aa500aedff" name="Changes" comment="Added ability to read Json, count whole entries, count all keys with its values">
+    <list default="true" id="3b9c6376-edc9-4bab-96c2-a8aa500aedff" name="Changes" comment="WCIRB project- Migration wok">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/JsonSample.json" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/JsonSample.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/XMLSample.XML" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/XMLSample.XML" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/URLCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/URLCrawler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/src/test/tests/MigrationTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/src/test/tests/MigrationTestCases.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/src/test/tests/TestBases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/src/test/tests/TestBases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/WCIRB/project/WCIRBDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/WCIRB/project/WCIRBDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/WCIRB/project/WCIRBLandingpageNewcontentgetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/WCIRB/project/WCIRBLandingpageNewcontentgetter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +61,6 @@
     &quot;assignee&quot;: &quot;QA-repository&quot;
   }
 }</component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="d2eb9247-548d-4368-a91b-d0d032a4cd4a" />
-  </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -108,7 +103,8 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hamzeh/IdeaProjects/VAR-MigrationTool/Resources&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Vardot QA/Downloads/VAR-MigrationTool/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vardot QA/Downloads/VAR-MigrationTool&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -117,6 +113,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vardot QA\Downloads\VAR-MigrationTool" />
       <recent name="C:\Users\Hamzeh\IdeaProjects\VAR-MigrationTool\Resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -124,10 +121,76 @@
       <recent name="C:\Users\Vardot QA\Desktop\Vardot_E2E Testing Tool\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pages.WCIRB.project" />
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.MigrationTestCases.readJsonToStoreExcel">
+  <component name="RunManager" selected="Application.URLCrawler">
+    <configuration name="DynamicFieldExtractorEEEEnews" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pages.WCIRB.project.DynamicFieldExtractorEEEEnews" />
+      <module name="Vardot-MigrationTestTool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pages.WCIRB.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DynamicFieldExtractornews" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pages.WCIRB.project.DynamicFieldExtractornews" />
+      <module name="Vardot-MigrationTestTool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pages.WCIRB.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="URLCrawler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pages.URLCrawler" />
+      <module name="Vardot-MigrationTestTool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WCIRBDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pages.WCIRB.project.WCIRBDB" />
+      <module name="Vardot-MigrationTestTool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pages.WCIRB.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebCrawler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pages.WebCrawler" />
+      <module name="Vardot-MigrationTestTool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Vardot_E2E Testing Tool" />
       <method v="2">
@@ -199,112 +262,22 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="MigrationTestCases.countEntriesJson" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Vardot-MigrationTestTool" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.test.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="src.test.tests" />
-      <option name="MAIN_CLASS_NAME" value="src.test.tests.MigrationTestCases" />
-      <option name="METHOD_NAME" value="countEntriesJson" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MigrationTestCases.getJsonData" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Vardot-MigrationTestTool" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.test.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="src.test.tests" />
-      <option name="MAIN_CLASS_NAME" value="src.test.tests.MigrationTestCases" />
-      <option name="METHOD_NAME" value="getJsonData" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MigrationTestCases.readJsonTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Vardot-MigrationTestTool" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.test.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="src.test.tests" />
-      <option name="MAIN_CLASS_NAME" value="src.test.tests.MigrationTestCases" />
-      <option name="METHOD_NAME" value="readJsonTestCase" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MigrationTestCases.readJsonToStoreExcel" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Vardot-MigrationTestTool" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.test.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="src.test.tests" />
-      <option name="MAIN_CLASS_NAME" value="src.test.tests.MigrationTestCases" />
-      <option name="METHOD_NAME" value="readJsonToStoreExcel" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MigrationTestCases.readJsonTostoreExcel" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Vardot-MigrationTestTool" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.test.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="src.test.tests" />
-      <option name="MAIN_CLASS_NAME" value="src.test.tests.MigrationTestCases" />
-      <option name="METHOD_NAME" value="readJsonTostoreExcel" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.DynamicFieldExtractorEEEEnews" />
+      <item itemvalue="Application.DynamicFieldExtractornews" />
+      <item itemvalue="Application.URLCrawler" />
+      <item itemvalue="Application.WCIRBDB" />
+      <item itemvalue="Application.WebCrawler" />
       <item itemvalue="Maven.Vardot [clean]" />
       <item itemvalue="Maven.Vardot [test]" />
-      <item itemvalue="TestNG.MigrationTestCases.readJsonToStoreExcel" />
-      <item itemvalue="TestNG.MigrationTestCases.readJsonTostoreExcel" />
-      <item itemvalue="TestNG.MigrationTestCases.getJsonData" />
-      <item itemvalue="TestNG.MigrationTestCases.countEntriesJson" />
-      <item itemvalue="TestNG.MigrationTestCases.readJsonTestCase" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.MigrationTestCases.readJsonToStoreExcel" />
-        <item itemvalue="TestNG.MigrationTestCases.countEntriesJson" />
-        <item itemvalue="TestNG.MigrationTestCases.readJsonTestCase" />
-        <item itemvalue="TestNG.MigrationTestCases.getJsonData" />
-        <item itemvalue="TestNG.MigrationTestCases.readJsonTostoreExcel" />
+        <item itemvalue="Application.URLCrawler" />
+        <item itemvalue="Application.WCIRBDB" />
+        <item itemvalue="Application.WebCrawler" />
+        <item itemvalue="Application.DynamicFieldExtractorEEEEnews" />
+        <item itemvalue="Application.DynamicFieldExtractornews" />
       </list>
     </recent_temporary>
   </component>
@@ -397,7 +370,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707401385698</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="WCIRB project- Migration wok">
+      <option name="closed" value="true" />
+      <created>1711011852160</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711011852160</updated>
+    </task>
+    <task id="LOCAL-00011" summary="WCIRB project- Migration wok">
+      <option name="closed" value="true" />
+      <created>1711011964824</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711011964824</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -421,7 +410,8 @@
     <MESSAGE value="url crawler update 2" />
     <MESSAGE value="url crawler update 3" />
     <MESSAGE value="Added ability to read Json, count whole entries, count all keys with its values" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added ability to read Json, count whole entries, count all keys with its values" />
+    <MESSAGE value="WCIRB project- Migration wok" />
+    <option name="LAST_COMMIT_MESSAGE" value="WCIRB project- Migration wok" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -430,6 +420,16 @@
           <properties class="java.io.IOException" package="java.io" />
           <option name="timeStamp" value="30" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/WCIRB/project/WCIRBDocumentContentDetails.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/WCIRB/project/DynamicFieldExtractor.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

@@ -22,8 +22,8 @@ public class URLCrawler {
 
     public static void main(String[] args) {
         try {
-            String startingUrl = "https://unhcr-staging.unhcr.info/admin/content";
-String cookie="_fbp=fb.1.1697985671735.265970786; _rup_ga=GA1.1.1286796730.1698049924; _ga=GA1.3.1286796730.1698049924; geo_redirect_closed=1; __qca=P0-853754207-1701264865442; _ga_RDNCXLXWYH=GS1.1.1701860813.4.0.1701860822.51.0.0; __utmz=269327925.1704209347.16.2.utmcsr=acnur-staging.unhcr.info|utmccn=(referral)|utmcmd=referral|utmcct=/; _gcl_au=1.1.1176448907.1705827794; __adroll_fpc=0c01230e3972c59a1b221519986c9edd-1706166888750; __ar_v4=%7CCJG6Y263JBCNXM4UR2QNCB%3A20240124%3A1%7CZKLE4AYT4VCH3ATNBGG47S%3A20240124%3A1%7CBOOEUQWCUJAS5HFQANRCES%3A20240124%3A1; _uetvid=b9d795e0419a11ee974f859fad821d29; _ga_KD4J9DLPE3=GS1.1.1706426408.103.1.1706426413.0.0.0; _ga_FXYR2Y8W7G=GS1.1.1706426413.2.0.1706426413.0.0.0; _ga_F9VC73DPR5=GS1.1.1706599992.3.0.1706599992.0.0.0; _gid=GA1.3.1070223470.1706533334; _ga=GA1.1.1286796730.1698049924; cookie_consent=true; __utmc=269327925; SSESS771e07aadf9c319dced03c719df72ae8=gfX0oyPP3F7h2eaqVLoBt54HVs6Q4ZUSoaM0gHBd6qz90UvR; SSESS283c1aed81f4a37da21d0fca6b2b6661=3Ev0uZ3Iy-G%2Cnj9SO7K7aKKAePo62bCllq638jSLmXUwfPpD; SSESSfacf9b8b25d82259a587f5f12d822c95=oiYqQAfHaMeDLtNtRdUnCuGsXe-mpR8uA8B2dKu1BniRHx8h; __utma=269327925.1286796730.1698049924.1706870700.1706877489.27; _rup_ga_EVDQTJ4LMY=GS1.1.1706902360.270.0.1706902360.0.0.0; _ga_TNZM2XR4ZN=GS1.1.1706902360.96.0.1706902360.0.0.0;";
+String startingUrl="https://www.rcw-358-pfyln2a-guf2qdgx2ziro.us-4.platformsh.site/en/admin/content";
+            String cookie="_cc_id=e3dc8d86166aaaba5a05d8ffb9eb8db9; panoramaId_expiry=1714993436784; panoramaId=d0e8c56501c85382dd8abce0061b185ca02c14b733f10e571a17a384f71e5e06; panoramaIdType=panoDevice; language_cookie=en; SSESS35e7236b95326bae95b88618edb7dc03=61tQklY0w3dFBnw00-1QV-SlNGjO0705448-1n5MglSCSF80";
             Set<String> processedURLs = new HashSet<>();
             Workbook workbook = new XSSFWorkbook();
             Sheet resultsSheet = workbook.createSheet("Testing Result");
@@ -34,7 +34,7 @@ String cookie="_fbp=fb.1.1697985671735.265970786; _rup_ga=GA1.1.1286796730.16980
 
             System.out.println("URL crawling and verification completed.");
 
-            try (FileOutputStream fileOut = new FileOutputStream("C:\\Users\\Vardot QA\\Downloads\\test 2.xlsx")) {
+            try (FileOutputStream fileOut = new FileOutputStream("C:\\Users\\Vardot QA\\Downloads\\GECafterupdate.xlsx")) {
                 workbook.write(fileOut);
                 System.out.println("Workbook written to file successfully.");
             } catch (IOException e) {
@@ -70,7 +70,6 @@ String cookie="_fbp=fb.1.1697985671735.265970786; _rup_ga=GA1.1.1286796730.16980
         while (!queue.isEmpty()) {
             String currentUrl = queue.poll();
 
-            System.out.println("Processing URL: " + currentUrl);
 
             if (processedURLs.contains(currentUrl)) {
                 continue;
@@ -228,7 +227,7 @@ String cookie="_fbp=fb.1.1697985671735.265970786; _rup_ga=GA1.1.1286796730.16980
     private static String[] apiResponse(String urlString, String currentCookie) {
         // Skip certain URLs
         if (shouldSkipUrl(urlString)) {
-            return new String[]{"200", "Skipped"};
+            return new String[]{"9000", "Skipped"};
         }
 
         try {
@@ -236,13 +235,12 @@ String cookie="_fbp=fb.1.1697985671735.265970786; _rup_ga=GA1.1.1286796730.16980
 
             String responseText = readHttpResponse(httpURLConnection);
 
-            handleApiResponse(responseText, currentCookie);
-
             return responseText.split(";", 2);
         } catch (IOException e) {
             return handleIOException(e);
         }
     }
+
 
     private static boolean shouldSkipUrl(String urlString) {
         return urlString.contains("/logout") || urlString.contains("/admin/flush");
@@ -264,12 +262,8 @@ String cookie="_fbp=fb.1.1697985671735.265970786; _rup_ga=GA1.1.1286796730.16980
     }
 
     private static void handleApiResponse(String responseText, String currentCookie) {
-        if ("403".equals(responseText.split(";")[0])) {
-            handleConsecutive403Responses(currentCookie);
-        } else {
-            resetConsecutive403Counter();
-            System.out.println("Response code: " + responseText.split(";")[0]);
-        }
+        System.out.println("Response code: " + responseText.split(";")[0]);
+
     }
 
     private static void handleConsecutive403Responses(String currentCookie) {
@@ -325,6 +319,7 @@ String cookie="_fbp=fb.1.1697985671735.265970786; _rup_ga=GA1.1.1286796730.16980
     private static String getResult(String currentUrl, String[] apiResponse, Sheet resultsSheet) {
         String responseCode = apiResponse[0];
         String responseText = apiResponse[1];
+        System.out.println("Processing URL: " + currentUrl +" response code is: "+ responseCode);
 
         if (responseCode.equals("200")) {
             return "Passed";
