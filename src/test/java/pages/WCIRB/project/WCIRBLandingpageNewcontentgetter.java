@@ -39,10 +39,12 @@ public class WCIRBLandingpageNewcontentgetter {
                 String url = baseUrl + i + "/edit";
 
                 Connection connection = Jsoup.connect(url);
-                connection.cookie("cookie", "_hjSessionUser_1198465=eyJpZCI6ImQxODdkYjk1LWY3MTctNTUyZC1hODNhLTgwOTVmNzBjMmM0MiIsImNyZWF0ZWQiOjE3MTAyMzg2MDY5NTMsImV4aXN0aW5nIjp0cnVlfQ==; SPL3e4814da78d3af4b89f11e5e03e90075=Oa3RpLA7OvzvNkv2BkxnkrPCqea0R1qPv7BCQx8JEMw%3AQii9MFP_AA5DXwIoYN8E9nHHgMpB3RAO4ItTB5kr_tA; SSESS3e4814da78d3af4b89f11e5e03e90075=wpv9vpDOSHO6LdqBv6wGAmaGaMk3bTXmC%2Cfmy2Dk7uV-2K5M"); // Add your cookie here
-               connection.timeout(50000*2);
+connection.cookie("cookie","_hjSessionUser_1198465=eyJpZCI6ImQxODdkYjk1LWY3MTctNTUyZC1hODNhLTgwOTVmNzBjMmM0MiIsImNyZWF0ZWQiOjE3MTAyMzg2MDY5NTMsImV4aXN0aW5nIjp0cnVlfQ==; SPL3e4814da78d3af4b89f11e5e03e90075=Oa3RpLA7OvzvNkv2BkxnkrPCqea0R1qPv7BCQx8JEMw%3AQii9MFP_AA5DXwIoYN8E9nHHgMpB3RAO4ItTB5kr_tA; SSESS3e4814da78d3af4b89f11e5e03e90075=ATZB8ifrIyPeuy16f8fxm48aQOomWwfBpTueNfwTAhPCbG1x; _hjSession_1198465=eyJpZCI6IjYxMjk3MDJiLTk4MmQtNDVlMi1hNWI4LTBjMDM1MDMwZDlmMyIsImMiOjE3MTEzMTM0MzY5MzQsInMiOjEsInIiOjEsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjowLCJzcCI6MX0=");
+connection.timeout(50000*2);
                 Document doc = connection.get();
                 String title = doc.select("input[data-drupal-selector=edit-title-0-value]").attr("value");
+
+
                 String topic = doc.select("select[data-drupal-selector=edit-field-topics] option[selected]").text();
 
 
@@ -57,7 +59,7 @@ public class WCIRBLandingpageNewcontentgetter {
 
                 String body = htmlDoc.text();
 
-
+System.out.println(body);
 
 
 
