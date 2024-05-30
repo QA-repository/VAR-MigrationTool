@@ -10,10 +10,34 @@
     <list default="true" id="3b9c6376-edc9-4bab-96c2-a8aa500aedff" name="Changes" comment="WCIRB project- Migration wok">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/URLCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/URLCrawler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/WCIRB/project/WCIRBDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/WCIRB/project/WCIRBDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/WCIRB/project/WCIRBLandingpageNewcontentgetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/WCIRB/project/WCIRBLandingpageNewcontentgetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/src/test/tests/CollectURLsFromDrupal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/src/test/tests/CollectURLsFromDrupal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/URLCrawler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/URLCrawler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/WebCrawler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/WebCrawler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/ClassCodeReaderEnhanced.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/ClassCodeReaderEnhanced.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/DatabaseTextSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/DynamicFieldExtractor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/DynamicFieldExtractor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/DynamicFieldExtractorEEEEnews.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/DynamicFieldExtractorEEEEnews.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/DynamicFieldExtractornews.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/DynamicFieldExtractornews.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/ExcelHtmlTagRemover.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/ExcelHtmlTagRemover.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/WCIRBDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/WCIRBDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/WCIRBDocumentChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/WCIRBDocumentChecker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/WCIRBDocumentContentDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/WCIRBDocumentContentDetails.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/WCIRBDocumentInfoGetter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/WCIRBDocumentInfoGetter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/WCIRBDocumentcompare.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/WCIRBDocumentcompare.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/WCIRBGetDocumentcontenttypelink.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/WCIRBGetDocumentcontenttypelink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/WCIRBGetEditLink.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/WCIRBGetEditLink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/WCIRBLandingpageNewcontentgetter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/WCIRBLandingpageNewcontentgetter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/WCIRBMediaChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/WCIRBMediaChecker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/WCIRBNewSiteExpertinfogetter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/WCIRBNewSiteExpertinfogetter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/WCIRBOLDSITEExpertInfoGetter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/WCIRBOLDSITEExpertInfoGetter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/WCIRB_ContentGetter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/WCIRB_ContentGetter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/WCIRB_GetUsers_Old_Sites.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/WCIRB/project/WCIRB_GetUsers_Old_Sites.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/src/test/tests/APICaller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/src/test/tests/APICaller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/src/test/tests/ConfigurationReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/src/test/tests/ConfigurationReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/src/test/tests/MigrationTestCases.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/src/test/tests/MigrationTestCases.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/src/test/tests/TestBases.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/src/test/tests/TestBases.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/src/test/tests/URLCrawler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/src/test/tests/URLCrawler.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +116,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.CollectURLsFromDrupal.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FetchDataFromContent.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FetchDataFromContent.extractDataToExcel.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FetchDataFromContent.fetchDataFromContent.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -100,11 +128,11 @@
     &quot;TestNG.MigrationTestCases.readJsonTestCase.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.MigrationTestCases.readJsonToStoreExcel.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.MigrationTestCases.readJsonTostoreExcel.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Fetch-Content-FromLinks&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/Vardot QA/Downloads/VAR-MigrationTool/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vardot QA/Downloads/VAR-MigrationTool&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hamzeh/IdeaProjects/VAR-MigrationTool-Fetch-Content/configs&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -113,10 +141,12 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Hamzeh\IdeaProjects\VAR-MigrationTool-Fetch-Content\configs" />
       <recent name="C:\Users\Vardot QA\Downloads\VAR-MigrationTool" />
       <recent name="C:\Users\Hamzeh\IdeaProjects\VAR-MigrationTool\Resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hamzeh\IdeaProjects\VAR-MigrationTool-Fetch-Content\Resources" />
       <recent name="C:\Users\Vardot QA\Desktop\Vardot_E2E Testing Tool" />
       <recent name="C:\Users\Vardot QA\Desktop\Vardot_E2E Testing Tool\src" />
     </key>
@@ -125,52 +155,13 @@
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.URLCrawler">
-    <configuration name="DynamicFieldExtractorEEEEnews" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pages.WCIRB.project.DynamicFieldExtractorEEEEnews" />
+  <component name="RunManager" selected="JUnit.FetchDataFromContent.extractDataToExcel">
+    <configuration name="CollectURLsFromDrupal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.test.tests.CollectURLsFromDrupal" />
       <module name="Vardot-MigrationTestTool" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pages.WCIRB.project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DynamicFieldExtractornews" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pages.WCIRB.project.DynamicFieldExtractornews" />
-      <module name="Vardot-MigrationTestTool" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pages.WCIRB.project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="URLCrawler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pages.URLCrawler" />
-      <module name="Vardot-MigrationTestTool" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WCIRBDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pages.WCIRB.project.WCIRBDB" />
-      <module name="Vardot-MigrationTestTool" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pages.WCIRB.project.*" />
+          <option name="PATTERN" value="src.test.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,6 +178,53 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FetchDataFromContent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Vardot-MigrationTestTool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.test.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="src.test.tests" />
+      <option name="MAIN_CLASS_NAME" value="src.test.tests.FetchDataFromContent" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FetchDataFromContent.extractDataToExcel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Vardot-MigrationTestTool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.test.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="src.test.tests" />
+      <option name="MAIN_CLASS_NAME" value="src.test.tests.FetchDataFromContent" />
+      <option name="METHOD_NAME" value="extractDataToExcel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FetchDataFromContent.fetchDataFromContent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Vardot-MigrationTestTool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.test.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="src.test.tests" />
+      <option name="MAIN_CLASS_NAME" value="src.test.tests.FetchDataFromContent" />
+      <option name="METHOD_NAME" value="fetchDataFromContent" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -219,6 +257,7 @@
                 <option value="clean" />
               </list>
             </option>
+            <option name="multimoduleDir" />
             <option name="pomFileName" />
             <option name="profilesMap">
               <map />
@@ -248,6 +287,7 @@
                 <option value="test" />
               </list>
             </option>
+            <option name="multimoduleDir" />
             <option name="pomFileName" />
             <option name="profilesMap">
               <map />
@@ -263,31 +303,23 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.DynamicFieldExtractorEEEEnews" />
-      <item itemvalue="Application.DynamicFieldExtractornews" />
-      <item itemvalue="Application.URLCrawler" />
-      <item itemvalue="Application.WCIRBDB" />
+      <item itemvalue="Application.CollectURLsFromDrupal" />
       <item itemvalue="Application.WebCrawler" />
+      <item itemvalue="JUnit.FetchDataFromContent.extractDataToExcel" />
+      <item itemvalue="JUnit.FetchDataFromContent.fetchDataFromContent" />
+      <item itemvalue="JUnit.FetchDataFromContent" />
       <item itemvalue="Maven.Vardot [clean]" />
       <item itemvalue="Maven.Vardot [test]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.URLCrawler" />
-        <item itemvalue="Application.WCIRBDB" />
+        <item itemvalue="JUnit.FetchDataFromContent.extractDataToExcel" />
+        <item itemvalue="JUnit.FetchDataFromContent.fetchDataFromContent" />
+        <item itemvalue="Application.CollectURLsFromDrupal" />
+        <item itemvalue="JUnit.FetchDataFromContent" />
         <item itemvalue="Application.WebCrawler" />
-        <item itemvalue="Application.DynamicFieldExtractorEEEEnews" />
-        <item itemvalue="Application.DynamicFieldExtractornews" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-21.0.1-openjdk-21.0.1-8336523bb0d9-657b72ed" />
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
